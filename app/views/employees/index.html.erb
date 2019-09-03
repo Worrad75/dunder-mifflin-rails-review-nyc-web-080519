@@ -1,0 +1,5 @@
+<h1>The Units of Labor</h1>
+
+<% @employees.each do |e|%>
+    <%= link_to e.first_name, employee_path(e.id) %><br>
+<% end %>

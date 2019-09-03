@@ -1,0 +1,16 @@
+<h1>an absolute unit (of labor)</h1>
+
+First Name: <%=@employee.first_name%><br>
+Last Name: <%=@employee.last_name%><br>
+Alias: <%=@employee.alias%><br>
+Title: <%=@employee.title%><br>
+Office: <%=@employee.office%><br>
+Picture: <%=@employee.img_url%><br>
+
+<%# <img src=@employee.img_url alt="employee picture"> %>
+
+<%# <a href=@employee.img_url></a> %>
+
+<%# <img src="#{@employee.img_url}" alt="profile"> %>
+
+<img src=<%=@employee.img_url%>>
